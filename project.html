@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Things about me and what i have done</title>
+    <link href="csspage.css" rel="stylesheet">
+    <script src ="jspage.js"></script>
+</head>
+<style>
+</style>
+<h1>Date and Time</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click to display Date and Time.</button>
+
+<p id="demo"></p>
+<body>
+    <header>
+      <section>
+        <h1><p style="color:rgb(5, 5, 5);">Name and Surname</p></h1> 
+        <p style="color:rgb(0, 0, 0);"><p>Yelnur Arkabayev.</p></b>
+        </section>
+        <main> 
+            <section> 
+             <h2><p style="color:rgb(0, 0, 0);">Education</p></h2>  
+              <p><b>Bachelor's Degree</b>  Game-design and development  UITM in Rzeszow.</p>  
+       <nav>
+        <ul>
+        </section> 
+        <section>
+            <h2><p style="color:rgb(0, 0, 0);">There are my favorite serials:</p></h2>
+        <p><a href="https://www.netflix.com/pl-en/title/80021955">Better Call Saul</a></p>
+        <p><a href="https://www.imdb.com/title/tt0460681/">Supernatural</a></p>
+        <p><a href="https://www.netflix.com/pl/title/70143836">Breaking bad</a></p>
+        </ul>
+    </section>
+    <section>
+        <h2><p style="color:rgb(0, 0, 0);">There are my favorite games:</p></h2>
+        <p><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">CS:GO</a></p>
+        <p><a href="https://store.steampowered.com/app/550/Left_4_Dead_2/">Left 4 Dead 2</a></p>
+        <p><a href="https://www.minecraft.net/ru-ru">Minecraft</a></p>
+    </section> 
+</main>
+   <h2><p style="color:rgb(14, 14, 14);">Table of my Education</p></h2>
+   <style>
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #0b0b0b;
+    text-align: left;
+    padding: 8px;
+  }
+  </style>
+  <table>
+    <tr>
+      <th>Years of study</th>
+      <th>Name of study</th>
+    </tr>
+    <tr>
+      <td>2015-2022</td>
+      <td>Specialized Lyceum</td>
+    </tr>
+    <tr>
+      <td>2022-...</td>
+      <td>UITM in Rzeszow</td>
+  </tr>
+  </table>
+       </nav>
+       <section>
+       <h2><p style="color:rgb(14, 14, 14);">Also i would like to add members of my family</p></h2>
+<ul>
+    <p><strong>Father&hearts;</strong></p>
+    <p><strong>Mother&hearts;</strong></p>
+    <p><strong>Big brother&hearts;</strong></p>
+    <p><strong>Little brother&hearts;</strong></p>
+</ul>
+</section>
+<h1>
+    <h2><p style="color:rgb(14, 14, 14);"><h2>Here you can change a background-color with a buttons</h2></p></h2>
+  <button class="btn btn-1"></button>
+  <button class="btn btn-2"></button> 
+  <button class="btn btn-3"></button>
+  <button class="btn btn-4"></button>
+  <button class="btn btn-5"></button>
+  <button class="btn btn-6"></button>
+  <button class="btn btn-7"></button>
+  <button class="btn btn-8"></button>
+  </h1>
+  <style>
+    .btn {
+    padding: 30px 53px;
+    margin-bottom: 2px;
+    background: var(--color);
+    cursor: pointer;
+}
+.btn-1 {--color: lightgreen;}
+.btn-2 {--color: lightgray;}
+.btn-3 {--color: white;}
+.btn-4 {--color: lightyellow;}
+.btn-5 {--color: orange;}
+.btn-6 {--color: pink;}
+.btn-7 {--color: yellow;}
+.btn-8 {--color: gray;}
+  </style>
+  <script>
+    let btns = document.getElementsByClassName("btn");
+for (let i =0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+        let buttonStyle = getComputedStyle(this);
+        let buttonBgColor =
+                    buttonStyle["backgroundColor"];
+        document.body.style.backgroundColor 
+                                 = buttonBgColor;
+    });
+}
+  </script>
+  </header>
+  </body>
+  <h1></h1>
+  <button style="background-color: rgb(138, 136, 136);color:rgb(16, 15, 15);border-radius: 10px;width: 10%;padding: 15px;font-size: 15px;" onclick="location.href='https://www.youtube.com/watch?v=XWsptjpzBW0&t=202s&ab_channel=giamoforti'">relaxed music</button>
+  <h1></h1>
+<style>
+    .all-browsers {
+      margin: 0;
+      padding: 5px;
+      background-color: lightgray;
+    }
+    
+    .all-browsers > h1, .browser {
+      margin: 10px;
+      padding: 5px;
+    }
+    .browser {
+      background: white;
+    }
+    .browser > h2, p {
+      margin: 4px;
+      font-size: 90%;
+    }
+    </style>
+    </head>
+    <body>
+    <article class="all-browsers">
+      <h1>My list of great footballers</h1>
+      <article class="browser">
+        <h2>Lionel Messi</h2>
+        <p>Lionel Andres Messi - is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team. Widely regarded as one of the greatest players of all time, Messi has won a record seven Ballon d'Or awards and a record six European Golden Shoes, and in 2020 he was named to the Ballon d'Or Dream Team. </p>
+      </article>
+      <article class="browser">
+        <h2>Cristiano Ronaldo</h2>
+        <p>Cristiano Ronaldo dos Santos Aveiro - is a Portuguese professional footballer who plays as a forward for and captains both Saudi Professional League club Al Nassr and the Portugal national team. Widely regarded as one of the greatest players of all time, Ronaldo has won five Ballon d'Or awards and four European Golden Shoes, the most by a European player.</p>
+      </article>
+      <article class="browser">
+        <h2>Neymar Junior</h2>
+        <p>Neymar da Silva Santos Junior - is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. A prolific goalscorer and renowned playmaker, he is widely regarded as one of the best players in the world as well as one of the greatest Brazilian footballers of all time.</p>
+      </article>
+    </article>
+    <h2><p style="color:rgb(14, 14, 14);"><h2>And here are a pictures of footballers</h2></p></h2>
+    <ul class="ul">
+      <p><strong>Messi</strong></p>
+    <img src="messi2.png" height="300">
+    <p><strong>Ronaldo</strong></p>
+    <img src="ronaldo1.png" height="300">
+    <p><strong>Neymar</strong></p>
+    <img src="neymar1.png" height="300">
+    </ul>
+    <h1>
+      <h2><p style="color:rgb(14, 14, 14);"><h2>Here you can get input text value while typing</h2></p></h2>
+    <body>
+      <input id="txt" onInput="getValue()"><br/>
+      <span id="result"></span>
+      <script>
+        function getValue() {
+          let txt = document.getElementById("txt");
+          let txtValue = txt.value;
+
+          let result = document.getElementById("result");
+          result.innerText = txtValue;
+        }
+      </script> 
+    </body>
+    </h1>
+    <h1>
+    <button onclick="toTop()">Back to the Top</button>
+    </h1>
+</header>         
